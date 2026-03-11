@@ -1,0 +1,23 @@
+/* General Styles */
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f0f2f5; margin: 0; }
+.container { max-width: 400px; margin: 50px auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+
+/* Login Styles */
+.login-box { text-align: center; }
+.login-box input { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box; }
+.login-box button { width: 100%; padding: 12px; background: #007bff; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 16px; }
+
+/* Dashboard Styles */
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+.logout-btn { background: #ff4757; color: white; border: none; padding: 5px 10px; border-radius: 4px; cursor: pointer; }
+.balance-card { background: #2f3542; color: white; padding: 20px; border-radius: 8px; text-align: center; margin-bottom: 20px; }
+
+form { display: flex; flex-direction: column; gap: 10px; }
+input { padding: 10px; border: 1px solid #ddd; border-radius: 4px; }
+.add-btn { background: #2ed573; color: white; border: none; padding: 10px; cursor: pointer; font-weight: bold; }
+
+.list { margin-top: 20px; list-style: none; padding: 0; }
+.item { display: flex; justify-content: space-between; background: #f9f9f9; padding: 10px; border-radius: 4px; margin-bottom: 8px; border-left: 5px solid #ffa502; }
+.item.income { border-left-color: #2ed573; }
+.item.expense { border-left-color: #ff4757; }
+.del-btn { background: none; border: none; color: #ff4757; cursor: pointer; font-weight: bold; }
