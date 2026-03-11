@@ -268,7 +268,7 @@ function App() {
                 {transactions.map((t) => (
                   <li key={t.id} className={t.type}>
                     <div className="t-info">
-                      <span className="t-text">{t.description}</span>
+                      <span className="t-text">{t.description} </span>
                       <small>{new Date(t.created_at).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })}</small>
                     </div>
                     <div className="t-amount" style={{ display: 'flex', alignItems: 'center' }}>
